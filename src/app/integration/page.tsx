@@ -6,7 +6,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'Integration - AI Application || NextSaaS',
+  title: 'Integration - AI Application || SequenceFlow',
 };
 
 const Integration02 = () => {

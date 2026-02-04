@@ -28,7 +28,7 @@ const Reviews = () => {
               <figcaption className="text-tagline-2 dark:text-accent font-medium">From our CEO</figcaption>
             </figure>
             <p className="max-sm:text-tagline-2 mx-auto mt-6 mb-4 max-w-[626px] text-center text-xl max-sm:px-2">
-              NextSaaS was born from a simple idea: What if the tools we use to run our businesses made things easier?
+              SequenceFlow was born from a simple idea: What if the tools we use to run our businesses made things easier?
               We&apos;re building a platform that scales with you, adapts to your needs, and grows with your team.
             </p>
             <strong className="dark:text-accent text-lg leading-[1.5] font-medium">

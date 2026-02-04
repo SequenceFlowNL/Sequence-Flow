@@ -319,7 +319,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'New Page - AI Application || NextSaaS',
+  title: 'New Page - AI Application || SequenceFlow',
   description: 'Description of the new page',
 };
 

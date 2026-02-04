@@ -9,7 +9,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'About - AI Application || NextSaaS',
+  title: 'About - AI Application || SequenceFlow',
 };
 
 const page = () => {

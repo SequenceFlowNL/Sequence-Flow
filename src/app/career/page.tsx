@@ -7,7 +7,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'Career - AI Application || NextSaaS',
+  title: 'Career - AI Application || SequenceFlow',
 };
 
 const page = () => {
@@ -20,7 +20,7 @@ const page = () => {
         className="dark:bg-background-6 bg-white"
         badgeClass="badge-green"
         badgeText="Get Started"
-        ctaHeading="Ready to start earning with NextSaaS?"
+        ctaHeading="Ready to start earning with SequenceFlow?"
         description="If you have any questions, feel free to reach out to our team."
         ctaBtnText="Get started"
       />

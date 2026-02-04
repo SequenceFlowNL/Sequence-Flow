@@ -23,7 +23,7 @@ type CompanyLink = Omit<CompanyMenuLinkProps, 'onClose'>;
 const aboutLinks: CompanyLink[] = [
   {
     title: 'About Us',
-    description: 'See how others are using NextSaaS',
+    description: 'See how others are using SequenceFlow',
     href: '/about',
     icon: AboutIcon,
   },
