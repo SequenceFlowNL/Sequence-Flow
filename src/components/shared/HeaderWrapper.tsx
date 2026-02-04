@@ -1,20 +1,9 @@
 'use client';
 
-import { useAppContext } from '@/context/AppContext';
-import { Fragment } from 'react';
-
 import Navbar from './navbar/Navbar';
-import TopNavHeading from './TopNavHeading';
 
 const HeaderWrapper = () => {
-  const { showTopNav } = useAppContext();
-
-  return (
-    <Fragment>
-      <TopNavHeading />
-      <Navbar showTopNav={showTopNav} />
-    </Fragment>
-  );
+  return <Navbar showTopNav={false} />;
 };
 
 HeaderWrapper.displayName = 'HeaderWrapper';

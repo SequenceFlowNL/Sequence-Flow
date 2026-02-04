@@ -13,7 +13,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'AI Application || NextSaaS',
+  title: 'SequenceFlow | Flow-as-a-Service voor Moderne Bedrijven',
 };
 
 const page = () => {

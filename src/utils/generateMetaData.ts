@@ -1,10 +1,10 @@
 import type { Metadata } from 'next';
 
-export const DEFAULT_URL = 'https://next-saas-next.vercel.app/';
-export const DEFAULT_TITLE = 'NextSaaS - Software, SaaS & Startup Tailwind Template';
+export const DEFAULT_URL = 'https://sequenceflow.nl/';
+export const DEFAULT_TITLE = 'SequenceFlow - Flow-as-a-Service | Autonome Workflows voor Bedrijfsgroei';
 export const DEFAULT_DESCRIPTION =
-  'NextSaaS - the ultimate collection of 38+ premium HTML templates for SaaS businesses and startups. Built with Tailwind CSS, featuring responsive design, authentication flows, pricing pages, and modern UI components. Perfect for web applications and digital products.';
-export const DEFAULT_IMAGE_URL = 'https://images.prismic.io/staticmania/aPD-K55xUNkB2D2X_og-image.jpg';
+  'SequenceFlow bouwt, implementeert en beheert intelligente, autonome bedrijfsprocessen die menselijke handelingen vervangen door AI-gestuurde logica. Ontdek onze Lead Flow, Support Flow en Operations Flow oplossingen.';
+export const DEFAULT_IMAGE_URL = 'https://sequenceflow.nl/og-image.jpg';
 
 const defaultMetadata: Metadata = {
   metadataBase: new URL(DEFAULT_URL),
@@ -12,7 +12,7 @@ const defaultMetadata: Metadata = {
   description: DEFAULT_DESCRIPTION,
   openGraph: {
     type: 'website',
-    siteName: 'NextSaaS',
+    siteName: 'SequenceFlow',
     url: DEFAULT_URL,
     title: DEFAULT_TITLE,
     description: DEFAULT_DESCRIPTION,
