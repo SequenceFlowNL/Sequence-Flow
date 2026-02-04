@@ -8,7 +8,7 @@ import instagram from '@public/images/icons/instagram.svg';
 import linkedin from '@public/images/icons/linkedin.svg';
 import youtube from '@public/images/icons/youtube.svg';
 import gradientImg from '@public/images/ns-img-532.png';
-import logoZwart from '@public/images/shared/logo-zwart.png';
+import logoWit from '@/components/New logo/Logo wit.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import FooterDivider from './FooterDivider';
@@ -27,7 +27,7 @@ const Footer = ({ className }: { className?: string }) => {
             <div className="col-span-12 xl:col-span-4">
               <div className="max-w-[306px]">
                 <figure>
-                  <Image src={logoZwart} alt="Logo" />
+                  <Image src={logoWit} alt="Logo" />
                 </figure>
                 <p className="text-accent/60 text-tagline-1 mt-4 mb-7 font-normal">
                   Wij bouwen, implementeren en beheren intelligente workflows die uw bedrijf laten groeien zonder extra
