@@ -1,5 +1,3 @@
-import heroBanner from '@public/images/ns-img-327.png';
-import Image from 'next/image';
 import RevealAnimation from '../animation/RevealAnimation';
 import LinkButton from '../ui/button/Button';
 
@@ -47,7 +45,17 @@ const Hero = () => {
           {/* banner */}
           <RevealAnimation delay={0.4} direction="up" instant>
             <figure className="mx-auto -mb-3 max-w-[620px] min-[1800px]:!max-w-[1166px] lg:max-w-[840px] xl:max-w-[1000px] 2xl:max-w-[1016px]">
-              <Image src={heroBanner} alt="Hero banner" className="h-full w-full object-cover" />
+              <video
+                autoPlay
+                loop
+                muted
+                playsInline
+                preload="metadata"
+                className="h-full w-full object-cover rounded-t-2xl"
+                aria-label="Hero video">
+                <source src="/video/hero-video.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </figure>
           </RevealAnimation>
         </div>
