@@ -9,7 +9,7 @@ import avatar18 from '@public/images/ns-avatar-18.png';
 import avatar19 from '@public/images/ns-avatar-19.png';
 import avatar2 from '@public/images/ns-avatar-2.png';
 import avatar3 from '@public/images/ns-avatar-3.png';
-import handsPhone from '@public/images/ns-img-310.png';
+import productFirstImage from '@/components/new-logo/product-first-aanpak.webp';
 import Image from 'next/image';
 import FeaturesFileCard from './FeaturesFileCard';
 
@@ -51,15 +51,14 @@ const Features = () => {
                   </RevealAnimation>
                   <RevealAnimation delay={0.2}>
                     <figure className="absolute right-0 bottom-2 md:bottom-40 lg:bottom-20 xl:bottom-2">
-                      <Image src={handsPhone} alt="feature-1" className="h-full w-full object-cover" />
+                      <Image src={productFirstImage} alt="Product-First aanpak" className="h-full w-full object-cover" />
                     </figure>
                   </RevealAnimation>
                   <RevealAnimation delay={0.2}>
                     <div className="absolute right-10.5 bottom-10.5 left-6 z-20 max-md:space-y-0.5 sm:left-10.5 md:left-6 md:space-y-1.5 xl:left-10.5">
                       <h3 className="text-heading-6 md:text-heading-5">Product-First aanpak</h3>
                       <p className="max-w-[450px]">
-                        Wij verkopen gestandaardiseerde flows. Maatwerk is alleen toegestaan als het de kern-engine
-                        versterkt voor toekomstige klanten.
+                        Stop met uren inkopen, start met resultaat. Wij vervangen handmatige taken door intelligente, autonome flows. Verhoog uw output en elimineer operationele frictie, zonder extra personeel.
                       </p>
                     </div>
                   </RevealAnimation>
@@ -108,8 +107,7 @@ const Features = () => {
                     <div className="max-md:space-y-0.5 md:space-y-1.5">
                       <h3 className="text-heading-6 md:text-heading-5">Schaalbare oplossingen</h3>
                       <p className="max-w-[450px]">
-                        Onze herbruikbare technische basis maakt snelle uitrol van nieuwe klanten mogelijk met maximale
-                        efficiëntie en voorspelbare cashflow.
+                        Gebouwd om mee te groeien. Onze engine schaalt moeiteloos van 100 naar 10.000+ acties per maand. Dankzij slimme usage caps behoudt u altijd volledige controle over uw kosten.
                       </p>
                     </div>
                   </RevealAnimation>
