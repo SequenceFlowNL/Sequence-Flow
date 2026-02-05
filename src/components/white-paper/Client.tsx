@@ -1,51 +1,33 @@
 //white paper client
 import { cn } from '@/utils/cn';
-import clientLogo1 from '@public/images/icons/client-logo-1.svg';
-import clientLogo2 from '@public/images/icons/client-logo-2.svg';
-import clientLogo3 from '@public/images/icons/client-logo-3.svg';
-import clientLogo4 from '@public/images/icons/client-logo-4.svg';
-import clientLogo5 from '@public/images/icons/client-logo-5.svg';
-import clientLogo1Dark from '@public/images/icons/client-logo-dark-1.svg';
-import clientLogo2Dark from '@public/images/icons/client-logo-dark-2.svg';
-import clientLogo3Dark from '@public/images/icons/client-logo-dark-3.svg';
-import clientLogo4Dark from '@public/images/icons/client-logo-dark-4.svg';
-import clientLogo5Dark from '@public/images/icons/client-logo-dark-5.svg';
+import exactLogo from '@/components/Brand Icons/exact.svg';
+import slackLogo from '@/components/Brand Icons/slack.svg';
+import linkedinLogo from '@/components/Brand Icons/linkedin.svg';
+import chatgptLogo from '@/components/Brand Icons/chatgpt.svg';
+import whatsappLogo from '@/components/Brand Icons/whatsapp.svg';
+import afasLogo from '@/components/Brand Icons/afas.svg';
+import gmailLogo from '@/components/Brand Icons/gmail.svg';
+import instagramLogo from '@/components/Brand Icons/instagram.svg';
 import Image, { StaticImageData } from 'next/image';
 import Marquee from 'react-fast-marquee';
 import RevealAnimation from '../animation/RevealAnimation';
 
 interface ClientLogo {
   id: string;
-  light: StaticImageData | string;
-  dark: StaticImageData | string;
+  src: StaticImageData | string;
+  alt: string;
+  invert?: boolean;
 }
 
 const clientLogos: ClientLogo[] = [
-  {
-    id: '1',
-    light: clientLogo1,
-    dark: clientLogo1Dark,
-  },
-  {
-    id: '2',
-    light: clientLogo2,
-    dark: clientLogo2Dark,
-  },
-  {
-    id: '3',
-    light: clientLogo3,
-    dark: clientLogo3Dark,
-  },
-  {
-    id: '4',
-    light: clientLogo4,
-    dark: clientLogo4Dark,
-  },
-  {
-    id: '5',
-    light: clientLogo5,
-    dark: clientLogo5Dark,
-  },
+  { id: '1', src: exactLogo, alt: 'Exact logo', invert: true },
+  { id: '2', src: slackLogo, alt: 'Slack logo' },
+  { id: '3', src: linkedinLogo, alt: 'LinkedIn logo' },
+  { id: '4', src: chatgptLogo, alt: 'ChatGPT logo' },
+  { id: '5', src: whatsappLogo, alt: 'WhatsApp logo' },
+  { id: '6', src: afasLogo, alt: 'AFAS logo', invert: true },
+  { id: '7', src: gmailLogo, alt: 'Gmail logo' },
+  { id: '8', src: instagramLogo, alt: 'Instagram logo' },
 ];
 
 const Clients = () => {
@@ -63,9 +45,12 @@ const Clients = () => {
           <Marquee autoFill speed={30}>
             <div className="flex items-center justify-center gap-8">
               {clientLogos.map((logo, index) => (
-                <figure key={logo.id} className={cn('w-28 md:w-36', index === 0 && 'ml-8')}>
-                  <Image src={logo.light} alt="Client logo" className="inline-block lg:w-auto dark:hidden" />
-                  <Image src={logo.dark} alt="Client logo" className="hidden lg:w-auto dark:inline-block" />
+                <figure key={logo.id} className={cn('w-28 md:w-36 flex justify-center', index === 0 && 'ml-8')}>
+                  <Image
+                    src={logo.src}
+                    alt={logo.alt}
+                    className={cn('h-10 w-auto', logo.invert && 'dark:invert')}
+                  />
                 </figure>
               ))}
             </div>

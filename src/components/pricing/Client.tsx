@@ -1,13 +1,11 @@
-import clientLogo10Dark from '@public/images/icons/client-logo-10-dark.svg';
-import clientLogo10 from '@public/images/icons/client-logo-10.svg';
-import clientLogo6Dark from '@public/images/icons/client-logo-6-dark.svg';
-import clientLogo6 from '@public/images/icons/client-logo-6.svg';
-import clientLogo7Dark from '@public/images/icons/client-logo-7-dark.svg';
-import clientLogo7 from '@public/images/icons/client-logo-7.svg';
-import clientLogo8Dark from '@public/images/icons/client-logo-8-dark.svg';
-import clientLogo8 from '@public/images/icons/client-logo-8.svg';
-import clientLogo9Dark from '@public/images/icons/client-logo-9-dark.svg';
-import clientLogo9 from '@public/images/icons/client-logo-9.svg';
+import exactLogo from '@/components/Brand Icons/exact.svg';
+import slackLogo from '@/components/Brand Icons/slack.svg';
+import linkedinLogo from '@/components/Brand Icons/linkedin.svg';
+import chatgptLogo from '@/components/Brand Icons/chatgpt.svg';
+import whatsappLogo from '@/components/Brand Icons/whatsapp.svg';
+import afasLogo from '@/components/Brand Icons/afas.svg';
+import gmailLogo from '@/components/Brand Icons/gmail.svg';
+import instagramLogo from '@/components/Brand Icons/instagram.svg';
 import avatar1Img from '@public/images/ns-avatar-1.png';
 import avatar2Img from '@public/images/ns-avatar-2.png';
 import avatar3Img from '@public/images/ns-avatar-3.png';
@@ -67,85 +65,29 @@ const Client = () => {
             <div className="from-background-3 dark:from-background-5 absolute top-5 right-0 z-40 h-full w-[7%] bg-gradient-to-l to-transparent" />
             <Marquee autoFill speed={60}>
               <div className="border-secondary/10 dark:border-accent/10 flex items-center justify-center gap-8 border-t pt-10">
-                <figure className="ml-8 min-w-[140px] md:min-w-[201px]">
-                  <Image
-                    src={clientLogo6}
-                    alt="Client company logo 1"
-                    className="inline-block lg:w-auto dark:hidden"
-                    width={120}
-                    height={40}
-                  />
-                  <Image
-                    src={clientLogo6Dark}
-                    alt="Client company logo 1"
-                    className="hidden lg:w-auto dark:block"
-                    width={120}
-                    height={40}
-                  />
+                <figure className="ml-8 min-w-[140px] md:min-w-[201px] flex justify-center">
+                  <Image src={exactLogo} alt="Exact logo" className="h-10 w-auto dark:invert" width={120} height={40} />
                 </figure>
-                <figure className="min-w-[140px] md:min-w-[201px]">
-                  <Image
-                    src={clientLogo7}
-                    alt="Client company logo 2"
-                    className="inline-block lg:w-auto dark:hidden"
-                    width={120}
-                    height={40}
-                  />
-                  <Image
-                    src={clientLogo7Dark}
-                    alt="Client company logo 2"
-                    className="hidden lg:w-auto dark:block"
-                    width={120}
-                    height={40}
-                  />
+                <figure className="min-w-[140px] md:min-w-[201px] flex justify-center">
+                  <Image src={slackLogo} alt="Slack logo" className="h-10 w-auto" width={120} height={40} />
                 </figure>
-                <figure className="min-w-[140px] md:min-w-[201px]">
-                  <Image
-                    src={clientLogo8}
-                    alt="Client company logo 3"
-                    className="inline-block lg:w-auto dark:hidden"
-                    width={120}
-                    height={40}
-                  />
-                  <Image
-                    src={clientLogo8Dark}
-                    alt="Client company logo 3"
-                    className="hidden lg:w-auto dark:block"
-                    width={120}
-                    height={40}
-                  />
+                <figure className="min-w-[140px] md:min-w-[201px] flex justify-center">
+                  <Image src={linkedinLogo} alt="LinkedIn logo" className="h-10 w-auto" width={120} height={40} />
                 </figure>
-                <figure className="min-w-[140px] md:min-w-[201px]">
-                  <Image
-                    src={clientLogo9}
-                    alt="Client company logo 4"
-                    className="inline-block lg:w-auto dark:hidden"
-                    width={120}
-                    height={40}
-                  />
-                  <Image
-                    src={clientLogo9Dark}
-                    alt="Client company logo 4"
-                    className="hidden lg:w-auto dark:block"
-                    width={120}
-                    height={40}
-                  />
+                <figure className="min-w-[140px] md:min-w-[201px] flex justify-center">
+                  <Image src={chatgptLogo} alt="ChatGPT logo" className="h-10 w-auto" width={120} height={40} />
                 </figure>
-                <figure className="min-w-[140px] md:min-w-[201px]">
-                  <Image
-                    src={clientLogo10}
-                    alt="Client company logo 5"
-                    className="inline-block lg:w-auto dark:hidden"
-                    width={120}
-                    height={40}
-                  />
-                  <Image
-                    src={clientLogo10Dark}
-                    alt="Client company logo 5"
-                    className="hidden lg:w-auto dark:block"
-                    width={120}
-                    height={40}
-                  />
+                <figure className="min-w-[140px] md:min-w-[201px] flex justify-center">
+                  <Image src={whatsappLogo} alt="WhatsApp logo" className="h-10 w-auto" width={120} height={40} />
+                </figure>
+                <figure className="min-w-[140px] md:min-w-[201px] flex justify-center">
+                  <Image src={afasLogo} alt="AFAS logo" className="h-10 w-auto dark:invert" width={120} height={40} />
+                </figure>
+                <figure className="min-w-[140px] md:min-w-[201px] flex justify-center">
+                  <Image src={gmailLogo} alt="Gmail logo" className="h-10 w-auto" width={120} height={40} />
+                </figure>
+                <figure className="min-w-[140px] md:min-w-[201px] flex justify-center">
+                  <Image src={instagramLogo} alt="Instagram logo" className="h-10 w-auto" width={120} height={40} />
                 </figure>
               </div>
             </Marquee>

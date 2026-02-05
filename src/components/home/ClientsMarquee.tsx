@@ -1,13 +1,11 @@
-import clientLogo10Dark from '@public/images/icons/client-logo-10-dark.svg';
-import clientLogo10 from '@public/images/icons/client-logo-10.svg';
-import clientLogo6Dark from '@public/images/icons/client-logo-6-dark.svg';
-import clientLogo6 from '@public/images/icons/client-logo-6.svg';
-import clientLogo7Dark from '@public/images/icons/client-logo-7-dark.svg';
-import clientLogo7 from '@public/images/icons/client-logo-7.svg';
-import clientLogo8Dark from '@public/images/icons/client-logo-8-dark.svg';
-import clientLogo8 from '@public/images/icons/client-logo-8.svg';
-import clientLogo9Dark from '@public/images/icons/client-logo-9-dark.svg';
-import clientLogo9 from '@public/images/icons/client-logo-9.svg';
+import exactLogo from '@/components/Brand Icons/exact.svg';
+import slackLogo from '@/components/Brand Icons/slack.svg';
+import linkedinLogo from '@/components/Brand Icons/linkedin.svg';
+import chatgptLogo from '@/components/Brand Icons/chatgpt.svg';
+import whatsappLogo from '@/components/Brand Icons/whatsapp.svg';
+import afasLogo from '@/components/Brand Icons/afas.svg';
+import gmailLogo from '@/components/Brand Icons/gmail.svg';
+import instagramLogo from '@/components/Brand Icons/instagram.svg';
 import Image from 'next/image';
 import Marquee from 'react-fast-marquee';
 import RevealAnimation from '../animation/RevealAnimation';
@@ -21,25 +19,29 @@ const ClientsMarquee = () => {
           <div className="dark:from-background-5 absolute top-0 right-0 z-40 h-full w-[15%] bg-gradient-to-l from-white to-transparent md:w-[20%]" />
           <Marquee autoFill speed={40}>
             <div className="flex items-center justify-center gap-8 py-7.5">
-              <figure className="ml-8 min-w-[140px] md:min-w-[201px]">
-                <Image src={clientLogo6} alt="Client 1 logo" loading="lazy" className="dark:hidden" />
-                <Image src={clientLogo6Dark} alt="Client 1 logo" loading="lazy" className="hidden dark:inline-block" />
+              <figure className="ml-8 min-w-[140px] md:min-w-[201px] flex justify-center">
+                <Image src={exactLogo} alt="Exact logo" loading="lazy" className="h-10 w-auto dark:invert" />
               </figure>
-              <figure className="min-w-[140px] md:min-w-[201px]">
-                <Image src={clientLogo7} alt="Client 2 logo" loading="lazy" className="dark:hidden" />
-                <Image src={clientLogo7Dark} alt="Client 2 logo" loading="lazy" className="hidden dark:inline-block" />
+              <figure className="min-w-[140px] md:min-w-[201px] flex justify-center">
+                <Image src={slackLogo} alt="Slack logo" loading="lazy" className="h-10 w-auto" />
               </figure>
-              <figure className="min-w-[140px] md:min-w-[201px]">
-                <Image src={clientLogo8} alt="Client 3 logo" loading="lazy" className="dark:hidden" />
-                <Image src={clientLogo8Dark} alt="Client 3 logo" loading="lazy" className="hidden dark:inline-block" />
+              <figure className="min-w-[140px] md:min-w-[201px] flex justify-center">
+                <Image src={linkedinLogo} alt="LinkedIn logo" loading="lazy" className="h-10 w-auto" />
               </figure>
-              <figure className="min-w-[140px] md:min-w-[201px]">
-                <Image src={clientLogo9} alt="Client 4 logo" loading="lazy" className="dark:hidden" />
-                <Image src={clientLogo9Dark} alt="Client 4 logo" loading="lazy" className="hidden dark:inline-block" />
+              <figure className="min-w-[140px] md:min-w-[201px] flex justify-center">
+                <Image src={chatgptLogo} alt="ChatGPT logo" loading="lazy" className="h-10 w-auto" />
               </figure>
-              <figure className="min-w-[140px] md:min-w-[201px]">
-                <Image src={clientLogo10} alt="Client 5 logo" loading="lazy" className="dark:hidden" />
-                <Image src={clientLogo10Dark} alt="Client 5 logo" loading="lazy" className="hidden dark:inline-block" />
+              <figure className="min-w-[140px] md:min-w-[201px] flex justify-center">
+                <Image src={whatsappLogo} alt="WhatsApp logo" loading="lazy" className="h-10 w-auto" />
+              </figure>
+              <figure className="min-w-[140px] md:min-w-[201px] flex justify-center">
+                <Image src={afasLogo} alt="AFAS logo" loading="lazy" className="h-10 w-auto dark:invert" />
+              </figure>
+              <figure className="min-w-[140px] md:min-w-[201px] flex justify-center">
+                <Image src={gmailLogo} alt="Gmail logo" loading="lazy" className="h-10 w-auto" />
+              </figure>
+              <figure className="min-w-[140px] md:min-w-[201px] flex justify-center">
+                <Image src={instagramLogo} alt="Instagram logo" loading="lazy" className="h-10 w-auto" />
               </figure>
             </div>
           </Marquee>
