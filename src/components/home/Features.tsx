@@ -1,30 +1,20 @@
 import Marquee from 'react-fast-marquee';
 import RevealAnimation from '../animation/RevealAnimation';
-
-import avatar1 from '@public/images/ns-avatar-1.png';
-import avatar15 from '@public/images/ns-avatar-15.png';
-import avatar16 from '@public/images/ns-avatar-16.png';
-import avatar17 from '@public/images/ns-avatar-17.png';
-import avatar18 from '@public/images/ns-avatar-18.png';
-import avatar19 from '@public/images/ns-avatar-19.png';
-import avatar2 from '@public/images/ns-avatar-2.png';
-import avatar3 from '@public/images/ns-avatar-3.png';
 import productFirstImage from '@/components/new-logo/product-first-aanpak.webp';
 import Image from 'next/image';
 import FeaturesFileCard from './FeaturesFileCard';
 
-const voicesTop = [
-  { id: 1, name: 'Voice-01', avatar: avatar15 },
-  { id: 2, name: 'Voice-02', avatar: avatar16 },
-  { id: 3, name: 'Voice-03', avatar: avatar17 },
-  { id: 4, name: 'Voice-04', avatar: avatar18 },
+const flowItemsTop = [
+  { id: 1, name: 'Lead Outreach' },
+  { id: 2, name: 'Lead Follow-up' },
+  { id: 3, name: 'Content Gen' },
+  { id: 4, name: 'Tickets' },
 ];
 
-const voicesBottom = [
-  { id: 1, name: 'Voice-01', avatar: avatar19 },
-  { id: 2, name: 'Voice-02', avatar: avatar1 },
-  { id: 3, name: 'Voice-03', avatar: avatar2 },
-  { id: 4, name: 'Voice-04', avatar: avatar3 },
+const flowItemsBottom = [
+  { id: 1, name: 'FAQ' },
+  { id: 2, name: 'E-mails reply' },
+  { id: 3, name: 'Rapportage' },
 ];
 
 const Features = () => {
@@ -76,28 +66,22 @@ const Features = () => {
                     <div className="from-background-12 pointer-events-none absolute top-0 right-0 z-10 h-full w-[20%] bg-gradient-to-l to-transparent" />
                     <Marquee>
                       <div className="flex items-center gap-x-7">
-                        {voicesTop.map((voice, index) => (
+                        {flowItemsTop.map((item, index) => (
                           <div
                             key={index + 1}
-                            className="inline-flex w-full max-w-[168px] min-w-[168px] items-center gap-x-3 rounded-[300px] bg-white p-1 first:ml-7">
-                            <figure className="size-14 overflow-hidden rounded-[300px]">
-                              <Image src={voice.avatar} alt={voice.name} className="size-full object-cover" />
-                            </figure>
-                            <span className="text-it-heading-6 text-secondary font-normal">{voice.name}</span>
+                            className="inline-flex items-center justify-center rounded-[300px] bg-white px-6 py-3 first:ml-7">
+                            <span className="text-tagline-1 text-secondary font-medium">{item.name}</span>
                           </div>
                         ))}
                       </div>
                     </Marquee>
                     <Marquee direction="right">
                       <div className="flex items-center gap-x-7">
-                        {voicesBottom.map((voice, index) => (
+                        {flowItemsBottom.map((item, index) => (
                           <div
                             key={index + 1}
-                            className="inline-flex w-full max-w-[168px] min-w-[168px] items-center gap-x-3 rounded-[300px] bg-white p-1 first:ml-7">
-                            <figure className="size-14 overflow-hidden rounded-[300px]">
-                              <Image src={voice.avatar} alt={voice.name} className="size-full object-cover" />
-                            </figure>
-                            <span className="text-it-heading-6 text-secondary font-normal">{voice.name}</span>
+                            className="inline-flex items-center justify-center rounded-[300px] bg-white px-6 py-3 first:ml-7">
+                            <span className="text-tagline-1 text-secondary font-medium">{item.name}</span>
                           </div>
                         ))}
                       </div>
