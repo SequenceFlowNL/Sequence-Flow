@@ -2,7 +2,7 @@
 'use client';
 import { useMobileMenuContext } from '@/context/MobileMenuContext';
 import { cn } from '@/utils/cn';
-import logoZwart from '@public/images/shared/logo-zwart.png';
+import logoZwart from '@/components/New logo/SequenceFlow logo zwart.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import MenuCloseButton from './MenuCloseButton';
