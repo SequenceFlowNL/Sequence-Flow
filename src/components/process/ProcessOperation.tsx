@@ -9,16 +9,16 @@ const ProcessOperation = () => {
       <div className="main-container space-y-[70px]">
         <div className="mx-auto max-w-[804px] space-y-5 text-center">
           <RevealAnimation delay={0.1}>
-            <span className="badge badge-cyan-v2">Process</span>
+            <span className="badge badge-green">Starten</span>
           </RevealAnimation>
           <div className="space-y-3 text-center">
             <RevealAnimation delay={0.2}>
-              <h2 className="mx-auto max-w-[624px]">What are the steps involved in its operation?</h2>
+              <h2 className="mx-auto max-w-[624px]">Hoe start u met SequenceFlow?</h2>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <p className="mx-auto max-w-[802px]">
-                The operation of instantaneous data insights and analytics involves several key steps. It begins with
-                data collection, where information is gathered in real-time from various sources such as sensors
+                In drie eenvoudige stappen bent u klaar om uw bedrijfsprocessen te automatiseren. Wij begeleiden u
+                van begin tot eind.
               </p>
             </RevealAnimation>
           </div>
@@ -43,17 +43,16 @@ const ProcessOperation = () => {
               <RevealAnimation delay={0.5}>
                 <div className="bg-background-3 dark:bg-background-7 mx-auto flex items-start gap-4 rounded-2xl px-7 py-5 sm:max-w-[596px] sm:gap-[22px] sm:rounded-[20px] sm:px-[34px] sm:py-6 lg:mx-0">
                   <div>
-                    <div className="bg-ns-yellow text-tagline-1 text-secondary flex size-10 shrink-0 items-center justify-center rounded-full font-semibold">
+                    <div className="bg-ns-green text-tagline-1 text-secondary flex size-10 shrink-0 items-center justify-center rounded-full font-semibold">
                       1
                     </div>
                   </div>
                   <div className="space-y-1">
                     <h3 className="text-secondary dark:text-accent text-lg leading-[27px] font-medium">
-                      Choose domain
+                      Neem contact op
                     </h3>
                     <p>
-                      Choose a domain name that reflects your website&apos;s purpose, content, or the nature of your
-                      business.
+                      Plan een vrijblijvend gesprek in waarin we uw wensen en huidige processen bespreken.
                     </p>
                   </div>
                 </div>
@@ -65,25 +64,23 @@ const ProcessOperation = () => {
                   </div>
                   <div className="space-y-1">
                     <h3 className="text-secondary dark:text-accent text-lg leading-[27px] font-medium">
-                      Login/register
+                      Ontvang een voorstel
                     </h3>
                     <p>
-                      Take the first step towards creating your website and reaching a wider audience by registering
-                      today.
+                      Wij analyseren uw situatie en presenteren een op maat gemaakt voorstel met concrete oplossingen.
                     </p>
                   </div>
                 </div>
               </RevealAnimation>
               <RevealAnimation delay={0.7}>
                 <div className="bg-background-3 dark:bg-background-7 mx-auto flex items-start gap-4 rounded-2xl px-7 py-5 sm:max-w-[596px] sm:gap-[22px] sm:rounded-[20px] sm:px-[34px] sm:py-6 lg:mx-0">
-                  <div className="bg-ns-red text-tagline-1 text-secondary flex size-10 shrink-0 items-center justify-center rounded-full font-semibold">
+                  <div className="bg-ns-green text-tagline-1 text-secondary flex size-10 shrink-0 items-center justify-center rounded-full font-semibold">
                     3
                   </div>
                   <div className="space-y-1">
-                    <h3 className="text-secondary dark:text-accent text-lg leading-[27px] font-medium">Make payment</h3>
+                    <h3 className="text-secondary dark:text-accent text-lg leading-[27px] font-medium">Start met automatiseren</h3>
                     <p>
-                      We offer a variety of secure payment methods to make your payment process convenient and
-                      hassle-free.
+                      Na akkoord gaan we direct aan de slag met het bouwen en implementeren van uw flows.
                     </p>
                   </div>
                 </div>

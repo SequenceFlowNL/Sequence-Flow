@@ -63,16 +63,16 @@ const ProcessStep = () => {
       <div className="main-container">
         <div className="mb-[70px] space-y-5 text-center">
           <RevealAnimation delay={0.1}>
-            <span className="badge badge-green">Process</span>
+            <span className="badge badge-green">Ons Proces</span>
           </RevealAnimation>
           <div className="space-y-3">
             <RevealAnimation delay={0.2}>
-              <h2>How we’ll work together</h2>
+              <h2>Hoe wij samenwerken</h2>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <p className="mx-auto max-w-[610px]">
-                I follow a process that’s transparent, collaborative, and results-driven—built around clear
-                communication and creative problem-solving.
+                Ons proces is transparant, resultaatgericht en gebouwd op heldere communicatie. Van intake tot
+                oplevering, u weet precies waar u aan toe bent.
               </p>
             </RevealAnimation>
           </div>
@@ -109,10 +109,10 @@ const ProcessStep = () => {
                           x2="0.49999"
                           y2={221}
                           gradientUnits="userSpaceOnUse">
-                          <stop offset={0} stopColor="#64D9FD" />
-                          <stop offset="0.25" stopColor="#7E57FD" />
+                          <stop offset={0} stopColor="#E5FDB5" />
+                          <stop offset="0.25" stopColor="#C7F56F" />
                           <stop offset="0.5" stopColor="white" />
-                          <stop offset={1} stopColor="#B04BFD" />
+                          <stop offset={1} stopColor="#9ED84D" />
                         </linearGradient>
                       </defs>
                     </svg>
@@ -120,12 +120,12 @@ const ProcessStep = () => {
                 </div>
                 <RevealAnimation delay={0.2}>
                   <div className="card-item dark:bg-background-6 max-sm:bg-background-4 absolute top-1/2 left-1/2 w-full max-w-[370px] -translate-x-1/2 -translate-y-1/2 space-y-3 rounded-[20px] p-6 lg:top-0 lg:left-0 lg:translate-x-0 lg:translate-y-0 lg:rounded-none lg:bg-none lg:p-0 lg:dark:bg-transparent">
-                    <p className="text-tagline-2 text-primary-500">STEP 1</p>
+                    <p className="text-tagline-2 text-primary-500">STAP 1</p>
                     <div className="space-y-2">
-                      <h3 className="text-heading-6 lg:text-heading-5">Kickoff call &amp; brand discovery</h3>
+                      <h3 className="text-heading-6 lg:text-heading-5">Intake &amp; procesanalyse</h3>
                       <p>
-                        We begin by understanding your vision and goals through a detailed discovery call to align on
-                        the project’s direction.
+                        We starten met een grondige analyse van uw huidige processen en identificeren waar automatisering
+                        de meeste impact heeft.
                       </p>
                     </div>
                   </div>
@@ -160,10 +160,10 @@ const ProcessStep = () => {
                           x2="0.49999"
                           y2={221}
                           gradientUnits="userSpaceOnUse">
-                          <stop offset={0} stopColor="#64D9FD" />
-                          <stop offset="0.25" stopColor="#7E57FD" />
+                          <stop offset={0} stopColor="#E5FDB5" />
+                          <stop offset="0.25" stopColor="#C7F56F" />
                           <stop offset="0.5" stopColor="white" />
-                          <stop offset={1} stopColor="#B04BFD" />
+                          <stop offset={1} stopColor="#9ED84D" />
                         </linearGradient>
                       </defs>
                     </svg>
@@ -171,14 +171,14 @@ const ProcessStep = () => {
                 </div>
                 <RevealAnimation delay={0.3}>
                   <div className="card-item dark:bg-background-6 max-sm:bg-background-4 absolute top-1/2 right-1/2 w-full max-w-[370px] translate-x-1/2 -translate-y-1/2 space-y-3 rounded-[20px] p-6 lg:top-0 lg:right-0 lg:translate-x-0 lg:translate-y-0 lg:rounded-none lg:bg-none lg:p-0 lg:dark:bg-transparent">
-                    <p className="text-tagline-2 text-primary-500">STEP 2</p>
+                    <p className="text-tagline-2 text-primary-500">STAP 2</p>
                     <div className="space-y-2">
                       <h3 className="text-heading-6 lg:text-heading-5 max-w-[293px]">
-                        Strategy, wireframes &amp; creative direction
+                        Flow ontwerp &amp; architectuur
                       </h3>
                       <p>
-                        We begin by understanding your vision and goals through a detailed discovery call to align on
-                        the project’s direction.
+                        We ontwerpen de optimale flow-architectuur en bepalen welke integraties en tools nodig zijn voor
+                        uw specifieke situatie.
                       </p>
                     </div>
                   </div>
@@ -213,10 +213,10 @@ const ProcessStep = () => {
                           x2="0.49999"
                           y2={221}
                           gradientUnits="userSpaceOnUse">
-                          <stop offset={0} stopColor="#64D9FD" />
-                          <stop offset="0.25" stopColor="#7E57FD" />
+                          <stop offset={0} stopColor="#E5FDB5" />
+                          <stop offset="0.25" stopColor="#C7F56F" />
                           <stop offset="0.5" stopColor="white" />
-                          <stop offset={1} stopColor="#B04BFD" />
+                          <stop offset={1} stopColor="#9ED84D" />
                         </linearGradient>
                       </defs>
                     </svg>
@@ -224,14 +224,14 @@ const ProcessStep = () => {
                 </div>
                 <RevealAnimation delay={0.4}>
                   <div className="card-item dark:bg-background-6 max-sm:bg-background-4 absolute top-1/2 left-1/2 w-full max-w-[370px] -translate-x-1/2 -translate-y-1/2 space-y-3 rounded-[20px] p-6 lg:top-0 lg:left-0 lg:translate-x-0 lg:translate-y-0 lg:rounded-none lg:bg-none lg:p-0 lg:dark:bg-transparent">
-                    <p className="text-tagline-2 text-primary-500">STEP 3</p>
+                    <p className="text-tagline-2 text-primary-500">STAP 3</p>
                     <div className="space-y-2">
                       <h3 className="text-heading-6 lg:text-heading-5 max-w-[236px]">
-                        Design &amp; development in sprints
+                        Bouw &amp; integratie
                       </h3>
                       <p>
-                        We begin by understanding your vision and goals through a detailed discovery call to align on
-                        the project’s direction.
+                        We bouwen uw flows en koppelen deze aan uw bestaande systemen zoals CRM, e-mail en andere tools
+                        die u dagelijks gebruikt.
                       </p>
                     </div>
                   </div>
@@ -266,10 +266,10 @@ const ProcessStep = () => {
                           x2="0.49999"
                           y2={221}
                           gradientUnits="userSpaceOnUse">
-                          <stop offset={0} stopColor="#64D9FD" />
-                          <stop offset="0.25" stopColor="#7E57FD" />
+                          <stop offset={0} stopColor="#E5FDB5" />
+                          <stop offset="0.25" stopColor="#C7F56F" />
                           <stop offset="0.5" stopColor="white" />
-                          <stop offset={1} stopColor="#B04BFD" />
+                          <stop offset={1} stopColor="#9ED84D" />
                         </linearGradient>
                       </defs>
                     </svg>
@@ -277,14 +277,14 @@ const ProcessStep = () => {
                 </div>
                 <RevealAnimation delay={0.5}>
                   <div className="card-item dark:bg-background-6 max-sm:bg-background-4 absolute top-1/2 right-1/2 w-full max-w-[370px] translate-x-1/2 -translate-y-1/2 space-y-3 rounded-[20px] p-6 lg:top-0 lg:right-0 lg:translate-x-0 lg:translate-y-0 lg:rounded-none lg:bg-none lg:p-0 lg:dark:bg-transparent">
-                    <p className="text-tagline-2 text-primary-500">STEP 4</p>
+                    <p className="text-tagline-2 text-primary-500">STAP 4</p>
                     <div className="space-y-2">
                       <h3 className="text-heading-6 lg:text-heading-5 max-w-[236px]">
-                        Feedback, refinement &amp; final delivery
+                        Testen &amp; optimaliseren
                       </h3>
                       <p>
-                        We begin by understanding your vision and goals through a detailed discovery call to align on
-                        the project’s direction.
+                        We testen de flows grondig en optimaliseren waar nodig totdat alles vlekkeloos draait en aan uw
+                        verwachtingen voldoet.
                       </p>
                     </div>
                   </div>
@@ -301,14 +301,14 @@ const ProcessStep = () => {
                 </div>
                 <RevealAnimation delay={0.6}>
                   <div className="card-item dark:bg-background-6 max-sm:bg-background-4 absolute top-16 left-1/2 w-full max-w-[370px] -translate-x-1/2 space-y-3 rounded-[20px] p-6 lg:top-0 lg:left-0 lg:translate-x-0 lg:translate-y-0 lg:rounded-none lg:bg-none lg:p-0 lg:dark:bg-transparent">
-                    <p className="text-tagline-2 text-primary-500">STEP 5</p>
+                    <p className="text-tagline-2 text-primary-500">STAP 5</p>
                     <div className="space-y-2">
                       <h3 className="text-heading-6 lg:text-heading-5 max-w-[203px]">
-                        Post-launch support &amp; handoff
+                        Oplevering &amp; ondersteuning
                       </h3>
                       <p>
-                        We begin by understanding your vision and goals through a detailed discovery call to align on
-                        the project’s direction.
+                        Na oplevering blijven we beschikbaar voor ondersteuning, monitoring en verdere uitbreiding van
+                        uw geautomatiseerde flows.
                       </p>
                     </div>
                   </div>

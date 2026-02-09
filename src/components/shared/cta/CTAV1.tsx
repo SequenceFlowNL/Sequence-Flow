@@ -16,6 +16,7 @@ interface CTAV1Props {
   listTextClass?: string;
   inputFieldClass?: string;
   checkListVariant?: 'default' | 'gray';
+  showCheckList?: boolean;
 }
 
 const CTAV1 = ({
@@ -31,6 +32,7 @@ const CTAV1 = ({
   listTextClass,
   inputFieldClass,
   checkListVariant = 'default',
+  showCheckList = true,
 }: CTAV1Props) => {
   return (
     <section className={cn('py-[50px] md:py-20 lg:py-28', className)} aria-label="cta section">
@@ -61,21 +63,23 @@ const CTAV1 = ({
           <div
             className={cn('w-full max-w-[562px] space-y-6 lg:pl-9', badgeText && 'mt-[40px] space-y-6 lg:mt-[67px]')}>
             <CtaInputForm ctaBtnText={ctaBtnText} inputFieldClass={inputFieldClass} />
-            <CTACheckList
-              className="gap-x-4 gap-y-5 sm:gap-x-6 sm:gap-y-0 xl:justify-start"
-              ctaCheckListData={[
-                {
-                  id: '1',
-                  text: 'No credit card required',
-                },
-                {
-                  id: '2',
-                  text: '14-Day free trial',
-                },
-              ]}
-              listTextClass={listTextClass}
-              checkListVariant={checkListVariant}
-            />
+            {showCheckList && (
+              <CTACheckList
+                className="gap-x-4 gap-y-5 sm:gap-x-6 sm:gap-y-0 xl:justify-start"
+                ctaCheckListData={[
+                  {
+                    id: '1',
+                    text: 'No credit card required',
+                  },
+                  {
+                    id: '2',
+                    text: '14-Day free trial',
+                  },
+                ]}
+                listTextClass={listTextClass}
+                checkListVariant={checkListVariant}
+              />
+            )}
           </div>
         </div>
       </div>

@@ -6,7 +6,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'Process - AI Application || SequenceFlow',
+  title: 'Hoe wij werken - SequenceFlow',
 };
 
 const Process02 = () => {
@@ -16,11 +16,12 @@ const Process02 = () => {
       <ProcessOperation />
       <CTAV1
         className="dark:bg-background-5 bg-white"
-        badgeText="Get started"
-        badgeClass="!badge-cyan-v2"
-        ctaHeading="Build a complete website using the assistance"
-        description="Start your free trial today and see your ideas come to life easily and creatively."
-        ctaBtnText="Get started"
+        badgeText="Start vandaag"
+        badgeClass="!badge-green"
+        ctaHeading="Klaar om uw processen te automatiseren?"
+        description="Laat uw e-mailadres achter en wij nemen contact met u op voor een vrijblijvend gesprek."
+        ctaBtnText="Verstuur"
+        showCheckList={false}
       />
     </main>
   );
