@@ -1,4 +1,3 @@
-import CaseStudy from '@/components/home/CaseStudy';
 import ClientsMarquee from '@/components/home/ClientsMarquee';
 import CTA from '@/components/home/CTA';
 import Faq from '@/components/home/Faq';
@@ -25,7 +24,6 @@ const page = () => {
       <Features />
       <HowItsWork />
       <Services />
-      <CaseStudy />
       <Testimonial />
       <Faq />
       <CTA />

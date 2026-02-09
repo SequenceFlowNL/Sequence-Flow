@@ -14,12 +14,11 @@ const Faq = () => {
               </RevealAnimation>
               <div className="space-y-3">
                 <RevealAnimation delay={0.3}>
-                  <h2>All the essential information you need to understand.</h2>
+                  <h2>Veelgestelde vragen over SequenceFlow</h2>
                 </RevealAnimation>
                 <RevealAnimation delay={0.4}>
                   <p>
-                    By offering concise and informative responses, this section helps users find solutions without the
-                    need to contact customer support, saving time
+                    Hier vindt u antwoorden op de meest gestelde vragen over onze diensten, werkwijze en wat u kunt verwachten.
                   </p>
                 </RevealAnimation>
               </div>
