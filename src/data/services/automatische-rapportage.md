@@ -1,7 +1,7 @@
 ---
 title: 'Automatische Rapportage'
 description: 'Een flow die data uit verschillende bronnen verzamelt en wekelijks een kant-en-klaar dashboard stuurt.'
-image: '/images/ns-img-321.png'
+image: '/images/automatische-rapportage.webp'
 imgAlt: 'Automatische Rapportage'
 icon: 'ns-shape-32'
 showHomePage: true

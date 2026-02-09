@@ -1,7 +1,7 @@
 ---
 title: 'AI First-Line Support'
 description: 'Een flow die veelvoorkomende vragen direct beantwoordt via WhatsApp of chat.'
-image: '/images/ns-img-318.png'
+image: '/images/ai-first-line-support.webp'
 imgAlt: 'AI First-Line Support'
 icon: 'ns-shape-29'
 showHomePage: true

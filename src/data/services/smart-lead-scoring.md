@@ -1,7 +1,7 @@
 ---
 title: 'Smart Lead Scoring'
 description: 'Een flow die binnenkomende leads automatisch kwalificeert en de warme leads direct in het CRM zet.'
-image: '/images/ns-img-316.png'
+image: '/images/smart-lead-scoring.webp'
 imgAlt: 'Smart Lead Scoring'
 icon: 'ns-shape-27'
 showHomePage: true

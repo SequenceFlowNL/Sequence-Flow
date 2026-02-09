@@ -1,7 +1,7 @@
 ---
 title: 'Admin-Killer'
 description: 'Het automatiseren van repetitieve administratieve taken zoals factuurverwerking of contractgeneratie.'
-image: '/images/ns-img-322.png'
+image: '/images/admin-killer.webp'
 imgAlt: 'Admin-Killer'
 icon: 'ns-shape-33'
 showHomePage: true

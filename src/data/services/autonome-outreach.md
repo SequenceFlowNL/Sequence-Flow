@@ -1,7 +1,7 @@
 ---
 title: 'Autonome Outreach'
 description: 'AI die op LinkedIn en e-mail prospects identificeert en persoonlijk benadert.'
-image: '/images/ns-img-315.png'
+image: '/images/autonome-outreach.webp'
 imgAlt: 'Autonome Outreach'
 icon: 'ns-shape-26'
 showHomePage: true

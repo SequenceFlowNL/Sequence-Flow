@@ -1,7 +1,7 @@
 ---
 title: 'Intelligent Ticket Routing'
 description: 'Het automatisch categoriseren en toewijzen van complexe support-tickets naar de juiste persoon.'
-image: '/images/ns-img-319.png'
+image: '/images/intelligent-ticket-routing.webp'
 imgAlt: 'Intelligent Ticket Routing'
 icon: 'ns-shape-30'
 showHomePage: true

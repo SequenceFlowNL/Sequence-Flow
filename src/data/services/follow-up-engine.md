@@ -1,7 +1,7 @@
 ---
 title: 'Follow-up Engine'
 description: 'Automatische, intelligente opvolging van leads die nog niet hebben gereageerd, zonder menselijke tussenkomst.'
-image: '/images/ns-img-317.png'
+image: '/images/follow-up-engine.webp'
 imgAlt: 'Follow-up Engine'
 icon: 'ns-shape-28'
 showHomePage: true

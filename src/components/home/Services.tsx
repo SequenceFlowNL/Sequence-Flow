@@ -1,7 +1,6 @@
 import { IService } from '@/interface';
 import getMarkDownData from '@/utils/getMarkDownData';
 import newArrowWhite from '@public/images/icons/new-arrow-white.svg';
-import service03 from '@public/images/ns-img-318.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import RevealAnimation from '../animation/RevealAnimation';
@@ -136,7 +135,13 @@ const Services = () => {
                   </Link>
                 </aside>
                 <figure className="col-span-12 mx-auto h-[360px] w-full max-w-[905px] overflow-hidden rounded-lg transition-transform duration-500 ease-in-out group-hover/card-img:scale-105 md:col-span-6 md:h-full md:rounded-[20px]">
-                  <Image src={service03} alt="services" className="h-full w-full object-cover" />
+                  <Image
+                    src={services[7]?.image}
+                    width={292}
+                    height={412}
+                    alt="services"
+                    className="h-full w-full object-cover"
+                  />
                 </figure>
               </div>
             </div>
