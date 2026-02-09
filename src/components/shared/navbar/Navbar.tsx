@@ -12,7 +12,6 @@ import MobileMenu from '../mobile-menu/MobileMenu';
 import MobileMenuButton from './MobileMenuButton';
 
 const navLinks = [
-  { label: 'Contact', href: '/contact-us' },
   { label: 'Hoe wij werken', href: '/process' },
   { label: 'Blog', href: '/blog' },
   { label: 'FAQ', href: '/faq' },

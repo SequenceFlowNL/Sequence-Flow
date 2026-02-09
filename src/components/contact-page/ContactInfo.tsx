@@ -1,7 +1,5 @@
 import homeIcon from '@public/images/icons/home.svg';
 import mailIcon from '@public/images/icons/mail-open.svg';
-import phoneIcon from '@public/images/icons/phone-right.svg';
-import gradientThree from '@public/images/ns-img-498.png';
 import gradientTwo from '@public/images/ns-img-509.png';
 import gradientOne from '@public/images/ns-img-510.png';
 import Image from 'next/image';
@@ -12,28 +10,19 @@ const contactInfoItems = [
   {
     id: 1,
     icon: homeIcon,
-    title: 'Our Address',
-    content: '2464 Royal Ln. Mesa, New Jersey 45463',
+    title: 'Locatie',
+    content: 'Amsterdam, Nederland',
     gradient: gradientOne,
     gradientClass: 'top-[-187px] left-[174px] -rotate-[78deg]',
   },
   {
     id: 2,
     icon: mailIcon,
-    title: 'Email Us',
-    content: 'hello@nextsaaS.com',
-    link: 'mailto:hello@nextsaaS.com',
+    title: 'E-mail',
+    content: 'hello@sequenceflow.io',
+    link: 'mailto:hello@sequenceflow.io',
     gradient: gradientTwo,
     gradientClass: 'top-[-206px] left-[-36px] rotate-[62deg]',
-  },
-  {
-    id: 3,
-    icon: phoneIcon,
-    title: 'Call Us',
-    content: '+391 (0)35 2568 4593',
-    link: 'tel:+391035256845933',
-    gradient: gradientThree,
-    gradientClass: 'top-[-184px] left-[-185px]',
   },
 ];
 
@@ -47,12 +36,12 @@ const ContactInfo = () => {
           {/* heading  */}
           <div className="mx-auto max-w-[680px] space-y-3 text-center">
             <RevealAnimation delay={0.2}>
-              <h2>Reach out to our support team for help.</h2>
+              <h2>Neem contact met ons op</h2>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <p>
-                Whether you have a question, need technical assistance, or just want some guidance, our support team is
-                here to help. We&apos;re available around the clock to provide quick and friendly support.
+                Heeft u een vraag over onze flows, wilt u een demo aanvragen of bent u benieuwd wat wij voor uw bedrijf
+                kunnen betekenen? Vul het formulier in en wij nemen zo snel mogelijk contact met u op.
               </p>
             </RevealAnimation>
           </div>
@@ -96,13 +85,13 @@ const ContactInfo = () => {
                     <label
                       htmlFor="fullname"
                       className="text-tagline-2 text-secondary dark:text-accent block font-medium">
-                      Your name
+                      Uw naam
                     </label>
                     <input
                       type="text"
                       id="fullname"
                       name="fullname"
-                      placeholder="Enter your name"
+                      placeholder="Vul uw naam in"
                       required={true}
                       autoComplete="name"
                       className="dark:focus-visible:border-stroke-4/20 dark:border-stroke-7 dark:bg-background-6 border-stroke-3 bg-background-1 text-tagline-2 placeholder:text-secondary/60 focus:border-secondary placeholder:text-tagline-2 dark:placeholder:text-accent/60 dark:text-accent h-[48px] w-full rounded-full border px-[18px] py-3 font-normal placeholder:font-normal focus:outline-none xl:h-[41px]"
@@ -113,13 +102,13 @@ const ContactInfo = () => {
                     <label
                       htmlFor="number"
                       className="text-tagline-2 text-secondary dark:text-accent block font-medium">
-                      Your number
+                      Telefoonnummer
                     </label>
                     <input
                       type="text"
                       id="number"
                       name="number"
-                      placeholder="Enter your number"
+                      placeholder="Vul uw telefoonnummer in"
                       required={true}
                       autoComplete="tel"
                       className="dark:focus-visible:border-stroke-4/20 dark:border-stroke-7 dark:bg-background-6 border-stroke-3 bg-background-1 text-tagline-2 placeholder:text-secondary/60 focus:border-secondary placeholder:text-tagline-2 dark:placeholder:text-accent/60 dark:text-accent h-[48px] w-full rounded-full border px-[18px] py-3 font-normal placeholder:font-normal focus:outline-none xl:h-[41px]"
@@ -129,13 +118,13 @@ const ContactInfo = () => {
                 {/* email  */}
                 <div className="space-y-2">
                   <label htmlFor="email" className="text-tagline-2 text-secondary dark:text-accent block font-medium">
-                    Email address
+                    E-mailadres
                   </label>
                   <input
                     type="email"
                     id="email"
                     name="email"
-                    placeholder="Enter your email"
+                    placeholder="Vul uw e-mailadres in"
                     required={true}
                     autoComplete="email"
                     className="dark:focus-visible:border-stroke-4/20 dark:border-stroke-7 dark:bg-background-6 border-stroke-3 bg-background-1 text-tagline-2 placeholder:text-secondary/60 focus:border-secondary placeholder:text-tagline-2 dark:placeholder:text-accent/60 dark:text-accent h-[48px] w-full rounded-full border px-[18px] py-3 font-normal placeholder:font-normal focus:outline-none xl:h-[41px]"
@@ -144,13 +133,13 @@ const ContactInfo = () => {
                 {/* subject  */}
                 <div className="space-y-2">
                   <label htmlFor="subject" className="text-tagline-2 text-secondary dark:text-accent block font-medium">
-                    Subject
+                    Onderwerp
                   </label>
                   <input
                     type="text"
                     id="subject"
                     name="subject"
-                    placeholder="Enter your subject"
+                    placeholder="Waar gaat uw vraag over?"
                     required={true}
                     className="dark:focus-visible:border-stroke-4/20 dark:border-stroke-7 dark:bg-background-6 border-stroke-3 bg-background-1 text-tagline-2 placeholder:text-secondary/60 focus:border-secondary placeholder:text-tagline-2 dark:placeholder:text-accent/60 dark:text-accent h-[48px] w-full rounded-full border px-[18px] py-3 font-normal placeholder:font-normal focus:outline-none xl:h-[41px]"
                   />
@@ -158,13 +147,13 @@ const ContactInfo = () => {
                 {/* message */}
                 <div className="space-y-2">
                   <label htmlFor="message" className="text-tagline-2 text-secondary dark:text-accent block font-medium">
-                    Write message
+                    Uw bericht
                   </label>
                   <textarea
                     id="message"
                     name="message"
                     rows={7}
-                    placeholder="Enter your messages"
+                    placeholder="Typ hier uw bericht"
                     required={true}
                     className="dark:bg-background-6 dark:border-stroke-7 border-stroke-3 bg-background-1 text-tagline-2 placeholder:text-secondary/60 focus:border-secondary dark:focus-visible:border-stroke-4/20 placeholder:text-tagline-2 dark:placeholder:text-accent/60 dark:text-accent w-full rounded-xl border px-[18px] py-3 font-normal placeholder:font-normal focus:outline-none"
                     defaultValue={''}
@@ -175,15 +164,15 @@ const ContactInfo = () => {
                   <label className="flex items-center gap-x-3">
                     <input id="terms" type="checkbox" className="peer sr-only" required={true} />
                     <span className="border-stroke-3 dark:border-stroke-7 after:bg-primary-500 peer-checked:border-primary-500 relative size-4 cursor-pointer rounded-full border after:absolute after:top-1/2 after:left-1/2 after:size-2.5 after:-translate-x-1/2 after:-translate-y-1/2 after:rounded-full after:opacity-0 peer-checked:after:opacity-100" />
-                    <span className="sr-only">Agree to the terms and conditions</span>
+                    <span className="sr-only">Akkoord met de algemene voorwaarden</span>
                   </label>
                   <label
                     htmlFor="terms"
                     className="text-tagline-3 text-secondary/60 dark:text-accent/60 cursor-pointer">
-                    I agree with the
+                    Ik ga akkoord met de
                     <Link href="/terms-conditions" className="text-primary-500 text-tagline-3 underline">
                       {' '}
-                      terms and conditions
+                      algemene voorwaarden
                     </Link>
                   </label>
                 </fieldset>
@@ -191,7 +180,7 @@ const ContactInfo = () => {
                 <button
                   type="submit"
                   className="btn btn-md btn-secondary hover:btn-primary dark:btn-accent w-full first-letter:uppercase before:content-none">
-                  Submit
+                  Versturen
                 </button>
               </form>
             </RevealAnimation>
