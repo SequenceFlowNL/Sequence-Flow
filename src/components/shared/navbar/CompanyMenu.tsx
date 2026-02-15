@@ -78,7 +78,7 @@ const solutionLinks: CompanyLink[] = [
   {
     title: 'Services',
     description: 'Our services and offerings',
-    href: '/diensten',
+    href: '/oplossingen',
     icon: ServiceIcon,
   },
   {

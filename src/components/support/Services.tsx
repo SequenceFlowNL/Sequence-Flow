@@ -46,7 +46,7 @@ const Services = () => {
                   </p>
                 </div>
                 <div className="text-center">
-                  <LinkButton href="/diensten" btnClass="btn-md-v2 btn-v2-white group-hover/btn-v2:btn-secondary-v2">
+                  <LinkButton href="/oplossingen" btnClass="btn-md-v2 btn-v2-white group-hover/btn-v2:btn-secondary-v2">
                     Check bottom-right
                   </LinkButton>
                 </div>
@@ -72,7 +72,7 @@ const Services = () => {
                   </p>
                 </div>
                 <div className="text-center">
-                  <LinkButton href="/diensten" btnClass="btn-md-v2 btn-v2-white group-hover/btn-v2:btn-secondary-v2">
+                  <LinkButton href="/oplossingen" btnClass="btn-md-v2 btn-v2-white group-hover/btn-v2:btn-secondary-v2">
                     Submit a ticket
                   </LinkButton>
                 </div>
@@ -98,7 +98,7 @@ const Services = () => {
                   </p>
                 </div>
                 <div className="text-center">
-                  <LinkButton href="/diensten" btnClass="btn-md-v2 btn-v2-white group-hover/btn-v2:btn-secondary-v2">
+                  <LinkButton href="/oplossingen" btnClass="btn-md-v2 btn-v2-white group-hover/btn-v2:btn-secondary-v2">
                     Visit knowledge base
                   </LinkButton>
                 </div>

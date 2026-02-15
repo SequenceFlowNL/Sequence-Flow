@@ -44,7 +44,7 @@ const Feature = ({ className, btnClassName }: { className?: string; btnClassName
                   We appreciate our valued clients and strive to provide them with the best service possible.
                 </h2>
                 <LinkButton
-                  href="/diensten"
+                  href="/oplossingen"
                   btnClass={cn('btn-md-v2 btn-v2-white group-hover/btn-v2:btn-primary-v2', btnClassName)}>
                   Get started
                 </LinkButton>

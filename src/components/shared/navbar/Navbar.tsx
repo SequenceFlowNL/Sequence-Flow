@@ -12,10 +12,10 @@ import MobileMenu from '../mobile-menu/MobileMenu';
 import MobileMenuButton from './MobileMenuButton';
 
 const navLinks = [
-  { label: 'Diensten', href: '/diensten' },
+  { label: 'Oplossingen', href: '/oplossingen' },
+  { label: 'Prijzen', href: '/prijzen' },
   { label: 'Hoe wij werken', href: '/hoe-wij-werken' },
   { label: 'Blog', href: '/blog' },
-  { label: 'FAQ', href: '/faq' },
 ];
 
 const Navbar = ({ showTopNav }: { showTopNav: boolean }) => {

@@ -7,7 +7,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'Pricing - AI Application || SequenceFlow',
+  title: 'Prijzen - SequenceFlow',
 };
 
 const page = () => {
@@ -18,11 +18,12 @@ const page = () => {
       <Faq />
       <CTAV1
         className="dark:bg-background-5 bg-background-1"
-        badgeText="Get started"
-        badgeClass="!badge-yellow-v2"
-        ctaHeading="Build a complete website using the assistance"
-        description="Start your free trial today and see your ideas come to life easily and creatively."
-        ctaBtnText="Get started"
+        badgeText="Start vandaag"
+        badgeClass="!badge-green"
+        ctaHeading="Klaar om te automatiseren?"
+        description="Laat uw e-mailadres achter en wij nemen contact met u op voor een vrijblijvend gesprek."
+        ctaBtnText="Verstuur"
+        showCheckList={false}
       />
     </main>
   );

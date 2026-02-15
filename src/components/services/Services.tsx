@@ -42,7 +42,7 @@ const Services = () => {
                     </div>
                     <div>
                       <LinkButton
-                        href="/diensten/automated-background-replacement"
+                        href="/oplossingen/automated-background-replacement"
                         btnClass="btn-md-v2 btn-v2-white group-hover/btn-v2:btn-primary-v2">
                         Read more
                       </LinkButton>
@@ -88,7 +88,7 @@ const Services = () => {
                     </div>
                     <div>
                       <LinkButton
-                        href="/diensten/batch-image-processing"
+                        href="/oplossingen/batch-image-processing"
                         btnClass="btn-md-v2 btn-v2-white group-hover/btn-v2:btn-primary-v2">
                         View more
                       </LinkButton>
@@ -112,7 +112,7 @@ const Services = () => {
                     </div>
                     <div>
                       <LinkButton
-                        href="/diensten/cloud-integration"
+                        href="/oplossingen/cloud-integration"
                         btnClass="btn-md-v2 btn-v2-white group-hover/btn-v2:btn-primary-v2">
                         View more
                       </LinkButton>
@@ -198,7 +198,7 @@ const Services = () => {
                     </div>
                     <div>
                       <LinkButton
-                        href="/diensten/color-correction-and-enhancement"
+                        href="/oplossingen/color-correction-and-enhancement"
                         btnClass="btn-md-v2 btn-v2-white group-hover/btn-v2:btn-primary-v2">
                         Read more
                       </LinkButton>
