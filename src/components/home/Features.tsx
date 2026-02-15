@@ -1,7 +1,5 @@
 import Marquee from 'react-fast-marquee';
 import RevealAnimation from '../animation/RevealAnimation';
-import productFirstImage from '@/components/new-logo/product-first-aanpak.webp';
-import Image from 'next/image';
 import FeaturesFileCard from './FeaturesFileCard';
 
 const flowItemsTop = [
@@ -41,7 +39,15 @@ const Features = () => {
                   </RevealAnimation>
                   <RevealAnimation delay={0.2}>
                     <figure className="absolute right-0 bottom-2 md:bottom-40 lg:bottom-20 xl:bottom-2">
-                      <Image src={productFirstImage} alt="Product-First aanpak" className="h-full w-full object-cover" />
+                      <video
+                        src="/images/product-first-aanpak-video.webm"
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                        preload="metadata"
+                        className="h-full w-full object-cover"
+                      />
                     </figure>
                   </RevealAnimation>
                   <RevealAnimation delay={0.2}>

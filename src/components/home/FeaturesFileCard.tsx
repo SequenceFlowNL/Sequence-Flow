@@ -1,8 +1,8 @@
 'use client';
 import { useGSAP } from '@gsap/react';
-import featureVideoCard1 from '@public/images/ns-img-311.png';
-import featureVideoCard2 from '@public/images/ns-img-312.png';
-import featureVideoCard3 from '@public/images/ns-img-313.png';
+import featureVideoCard1 from '@public/images/pricing-1.webp';
+import featureVideoCard2 from '@public/images/pricing-2.webp';
+import featureVideoCard3 from '@public/images/pricing-3.webp';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Image from 'next/image';
@@ -79,15 +79,15 @@ const FeaturesFileCard = () => {
           <figure
             ref={featureCard1Ref}
             className="shadow-13 w-full max-w-[214px] rotate-[12deg] overflow-hidden rounded-b-[15px]">
-            <Image src={featureVideoCard1} alt="feature-1" className="h-full w-full object-cover" />
+            <Image src={featureVideoCard1} alt="pricing-1" className="h-full w-full object-cover" />
           </figure>
           <figure ref={featureCard2Ref} className="relative z-10 w-full max-w-[214px] overflow-hidden rounded-b-[15px]">
-            <Image src={featureVideoCard2} alt="feature-1" className="h-full w-full object-cover" />
+            <Image src={featureVideoCard2} alt="pricing-2" className="h-full w-full object-cover" />
           </figure>
           <figure
             ref={featureCard3Ref}
             className="shadow-13 relative z-10 w-full max-w-[214px] -rotate-[12deg] overflow-hidden rounded-b-[15px]">
-            <Image src={featureVideoCard3} alt="feature-1" className="h-full w-full object-cover" />
+            <Image src={featureVideoCard3} alt="pricing-3" className="h-full w-full object-cover" />
           </figure>
         </div>
         <RevealAnimation delay={0.1} start="top 97%">
