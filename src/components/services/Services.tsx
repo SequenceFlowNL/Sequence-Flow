@@ -21,10 +21,10 @@ const Services = () => {
       <div className="main-container">
         <div className="mb-[70px] space-y-5 text-center">
           <RevealAnimation delay={0.2}>
-            <span className="badge badge-green">Services</span>
+            <span className="badge badge-green">Oplossingen</span>
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
-            <h2>Enterprise-grade security &amp; intelligence</h2>
+            <h2>Drie flows die uw bedrijf transformeren</h2>
           </RevealAnimation>
         </div>
         <div className="flex flex-wrap gap-4 space-y-[42px]">
@@ -34,17 +34,17 @@ const Services = () => {
                 <div className="col-span-12 lg:col-span-6">
                   <div className="space-y-8">
                     <div className="space-y-2">
-                      <h3>Automated Background Replacement</h3>
+                      <h3>Lead Flow</h3>
                       <p className="w-full max-w-[410px]">
-                        Utilize comprehensive data security frameworks to effectively safeguard sensitive information
-                        from unauthorized access and breaches.
+                        Automatiseer uw volledige lead generatie — van prospect identificatie en outreach tot scoring en
+                        follow-up. Meer gekwalificeerde leads, zonder extra personeel.
                       </p>
                     </div>
                     <div>
                       <LinkButton
-                        href="/oplossingen/automated-background-replacement"
+                        href="/oplossingen/lead-flow"
                         btnClass="btn-md-v2 btn-v2-white group-hover/btn-v2:btn-primary-v2">
-                        Read more
+                        Meer info
                       </LinkButton>
                     </div>
                   </div>
@@ -52,10 +52,10 @@ const Services = () => {
                 <div className="col-span-12 lg:col-span-6">
                   <div className="flex items-center gap-8">
                     <figure className="w-full max-w-[233px] overflow-hidden rounded-2xl">
-                      <Image src={timeIncrease} alt="time increase" className="w-full" />
+                      <Image src={timeIncrease} alt="lead flow" className="w-full" />
                     </figure>
                     <figure className="w-full max-w-[350px] overflow-hidden rounded-[20px]">
-                      <Image src={controlCard} alt="control car" className="w-full" />
+                      <Image src={controlCard} alt="lead flow" className="w-full" />
                     </figure>
                   </div>
                 </div>
@@ -68,29 +68,29 @@ const Services = () => {
                 <div className="col-span-12 lg:col-span-6">
                   <div className="flex items-center gap-8">
                     <figure className="h-full max-h-[317px] w-full max-w-[326px] overflow-hidden rounded-[20px]">
-                      <Image src={revenue} alt="revenue" className="h-full w-full object-cover dark:hidden" />
-                      <Image src={revenueDark} alt="revenue" className="hidden h-full w-full object-cover dark:block" />
+                      <Image src={revenue} alt="support flow" className="h-full w-full object-cover dark:hidden" />
+                      <Image src={revenueDark} alt="support flow" className="hidden h-full w-full object-cover dark:block" />
                     </figure>
                     <figure className="h-full max-h-[178px] w-full max-w-[255px] overflow-hidden rounded-2xl">
-                      <Image src={balance} alt="balance" className="h-full w-full object-cover dark:hidden" />
-                      <Image src={balanceDark} alt="balance" className="hidden h-full w-full object-cover dark:block" />
+                      <Image src={balance} alt="support flow" className="h-full w-full object-cover dark:hidden" />
+                      <Image src={balanceDark} alt="support flow" className="hidden h-full w-full object-cover dark:block" />
                     </figure>
                   </div>
                 </div>
                 <div className="col-span-12 lg:col-span-6">
                   <div className="space-y-8">
                     <div className="space-y-2">
-                      <h3>Batch Image Processing</h3>
+                      <h3>Support Flow</h3>
                       <p className="w-full max-w-[493px]">
-                        Utilize advanced predictive analytics to proactively identify potential threats before they
-                        escalate. by analyzing patterns and trends in data.
+                        Laat AI uw eerste lijn klantenservice overnemen. Automatische antwoorden, intelligent ticket
+                        routing en 24/7 beschikbaarheid — zonder wachttijden voor uw klanten.
                       </p>
                     </div>
                     <div>
                       <LinkButton
-                        href="/oplossingen/batch-image-processing"
+                        href="/oplossingen/support-flow"
                         btnClass="btn-md-v2 btn-v2-white group-hover/btn-v2:btn-primary-v2">
-                        View more
+                        Meer info
                       </LinkButton>
                     </div>
                   </div>
@@ -104,17 +104,17 @@ const Services = () => {
                 <div className="col-span-12 lg:col-span-6">
                   <div className="space-y-8">
                     <div className="space-y-2">
-                      <h3>Cloud Integration</h3>
+                      <h3>Operations Flow</h3>
                       <p className="w-full max-w-[380px]">
-                        Continuously monitor for vulnerabilities and implement proactive measures to prevent cyber
-                        attacks before they can occur.
+                        Zet uw back-office op de automatische piloot. Van CRM-synchronisatie en rapportage tot
+                        administratie — alles draait zonder handmatig werk.
                       </p>
                     </div>
                     <div>
                       <LinkButton
-                        href="/oplossingen/cloud-integration"
+                        href="/oplossingen/operations-flow"
                         btnClass="btn-md-v2 btn-v2-white group-hover/btn-v2:btn-primary-v2">
-                        View more
+                        Meer info
                       </LinkButton>
                     </div>
                   </div>
@@ -122,19 +122,19 @@ const Services = () => {
                 <div className="col-span-12 lg:col-span-6">
                   <div className="flex items-start gap-8">
                     <figure className="h-full max-h-[345px] w-full max-w-[350px] overflow-hidden rounded-[20px]">
-                      <Image src={earning} alt="earning" className="h-full w-full object-cover dark:hidden" />
-                      <Image src={earningDark} alt="earning" className="hidden h-full w-full object-cover dark:block" />
+                      <Image src={earning} alt="operations flow" className="h-full w-full object-cover dark:hidden" />
+                      <Image src={earningDark} alt="operations flow" className="hidden h-full w-full object-cover dark:block" />
                     </figure>
                     <div className="space-y-8">
                       <figure className="h-full max-h-[190px] w-full max-w-[286px] overflow-hidden rounded-2xl">
                         <Image
                           src={dailyPayment}
-                          alt="daily payment"
+                          alt="operations flow"
                           className="h-full w-full object-cover dark:hidden"
                         />
                         <Image
                           src={dailyPaymentDark}
-                          alt="daily payment"
+                          alt="operations flow"
                           className="hidden h-full w-full object-cover dark:block"
                         />
                       </figure>
@@ -161,47 +161,11 @@ const Services = () => {
                             </div>
                           </div>
                           <div>
-                            <p className="text-secondary dark:text-accent font-medium">Trusted by 20k+</p>
-                            <p className="text-tagline-2 font-normal">Customers across the globe</p>
+                            <p className="text-secondary dark:text-accent font-medium">Vertrouwd door 50+</p>
+                            <p className="text-tagline-2 font-normal">Bedrijven in de Benelux</p>
                           </div>
                         </div>
                       </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </RevealAnimation>
-          <RevealAnimation delay={0.7}>
-            <div className="border-stroke-1 dark:border-stroke-7 bg-background-1 dark:bg-background-6 rounded-[20px] border p-7 lg:max-w-full lg:p-[42px]">
-              <div className="grid grid-cols-12 items-center gap-y-10 lg:gap-20 xl:gap-[100px]">
-                <div className="col-span-12 lg:col-span-6">
-                  <div className="flex items-start -space-x-20">
-                    <figure className="w-full max-w-[408px] overflow-hidden rounded-[20px]">
-                      <Image src={revenue} alt="revenue" className="h-full w-full object-cover dark:hidden" />
-                      <Image src={revenueDark} alt="revenue" className="hidden h-full w-full object-cover dark:block" />
-                    </figure>
-                    <figure className="mt-4 w-full max-w-[225px] overflow-hidden rounded-2xl">
-                      <Image src={balance} alt="balance" className="h-full w-full object-cover dark:hidden" />
-                      <Image src={balanceDark} alt="balance" className="hidden h-full w-full object-cover dark:block" />
-                    </figure>
-                  </div>
-                </div>
-                <div className="col-span-12 lg:col-span-6">
-                  <div className="space-y-8">
-                    <div className="space-y-2">
-                      <h3>Color Correction & Enhancement</h3>
-                      <p className="w-full max-w-[493px]">
-                        Utilize advanced predictive analytics to proactively identify potential threats before they
-                        escalate. by analyzing patterns and trends in data.
-                      </p>
-                    </div>
-                    <div>
-                      <LinkButton
-                        href="/oplossingen/color-correction-and-enhancement"
-                        btnClass="btn-md-v2 btn-v2-white group-hover/btn-v2:btn-primary-v2">
-                        Read more
-                      </LinkButton>
                     </div>
                   </div>
                 </div>

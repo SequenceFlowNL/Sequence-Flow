@@ -23,12 +23,13 @@ const OurServicesDetails = async ({ params }: { params: Promise<{ slug: string }
     <main className="bg-background-3 dark:bg-background-7">
       <Contents slug={slug} />
       <CTAV1
-        className="dark:bg-background-6 bg-white"
-        badgeClass="hidden"
-        ctaHeading="Build a complete website using the"
-        spanText="assistance"
-        description="Start your free trial today and see your ideas come to life easily and creatively."
-        ctaBtnText="Get started"
+        className="dark:bg-background-5 bg-background-1"
+        badgeText="Start vandaag"
+        badgeClass="!badge-green"
+        ctaHeading="Klaar om te automatiseren?"
+        description="Laat uw e-mailadres achter en wij nemen contact met u op voor een vrijblijvend gesprek."
+        ctaBtnText="Verstuur"
+        showCheckList={false}
       />
     </main>
   );
