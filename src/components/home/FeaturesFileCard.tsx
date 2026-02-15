@@ -94,7 +94,7 @@ const FeaturesFileCard = () => {
           <div className="relative z-20 max-md:space-y-0.5">
             <h3 className="text-heading-6 md:text-heading-5">Waarde-gebaseerde pricing</h3>
             <p className="max-w-[450px]">
-              Betalen voor waarde, niet voor tijd. Geen uurtje-factuurtje, maar transparante prijzen op basis van impact. Met een vaste Setup Fee en maandelijks abonnement bouwt u aan een voorspelbare cashflow.
+              Betaal voor impact, niet voor uren. Transparante setup + voorspelbaar maandelijks abonnement.
             </p>
           </div>
         </RevealAnimation>

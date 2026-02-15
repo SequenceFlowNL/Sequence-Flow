@@ -24,10 +24,10 @@ const Features = () => {
         <div className="main-container">
           <div className="mb-10 space-y-4 text-center md:mb-14 lg:mx-auto lg:max-w-[740px]">
             <RevealAnimation delay={0.1}>
-              <span className="badge badge-white-v2 text-secondary font-medium">Waarom SequenceFlow</span>
+              <span className="badge badge-white-v2 text-secondary font-medium">Autonome bedrijfsprocessen</span>
             </RevealAnimation>
             <RevealAnimation delay={0.2}>
-              <h2>Krachtige automatisering die uw bedrijfsprocessen transformeert.</h2>
+              <h2>Stop met handmatig werk. Laat AI het overnemen.</h2>
             </RevealAnimation>
           </div>
           {/* features grid */}
@@ -48,7 +48,7 @@ const Features = () => {
                     <div className="absolute right-10.5 bottom-10.5 left-6 z-20 max-md:space-y-0.5 sm:left-10.5 md:left-6 md:space-y-1.5 xl:left-10.5">
                       <h3 className="text-heading-6 md:text-heading-5">Product-First aanpak</h3>
                       <p className="max-w-[450px]">
-                        Stop met uren inkopen, start met resultaat. Wij vervangen handmatige taken door intelligente, autonome flows. Verhoog uw output en elimineer operationele frictie, zonder extra personeel.
+                        Van handmatig werk naar autonome workflows. Wij vervangen repetitieve taken door intelligente AI flows die zelfstandig werken.
                       </p>
                     </div>
                   </RevealAnimation>
@@ -91,7 +91,7 @@ const Features = () => {
                     <div className="max-md:space-y-0.5 md:space-y-1.5">
                       <h3 className="text-heading-6 md:text-heading-5">Schaalbare oplossingen</h3>
                       <p className="max-w-[450px]">
-                        Gebouwd om mee te groeien. Onze engine schaalt moeiteloos van 100 naar 10.000+ acties per maand. Dankzij slimme usage caps behoudt u altijd volledige controle over uw kosten.
+                        Schaal van 100 naar 10.000 acties per maand zonder extra personeel. Onze AI flows groeien mee met uw bedrijf.
                       </p>
                     </div>
                   </RevealAnimation>
