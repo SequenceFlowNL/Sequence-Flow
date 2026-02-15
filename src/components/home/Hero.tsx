@@ -27,7 +27,7 @@ const Hero = () => {
             <ul className="flex flex-col items-center justify-center gap-x-4 gap-y-3 md:flex-row md:gap-y-0">
               <RevealAnimation delay={0.4} direction="left" instant offset={50}>
                 <div>
-                  <LinkButton href="/services" btnClass="btn-xl-v2 btn-secondary-v2 group-hover/btn-v2:btn-primary-v2">
+                  <LinkButton href="/diensten" btnClass="btn-xl-v2 btn-secondary-v2 group-hover/btn-v2:btn-primary-v2">
                     Ontdek onze flows
                   </LinkButton>
                 </div>

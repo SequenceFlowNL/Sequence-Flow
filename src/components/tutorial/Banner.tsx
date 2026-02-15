@@ -23,7 +23,7 @@ const Banner = () => {
             </div>
             <RevealAnimation delay={0.3} instant>
               <div>
-                <LinkButton href="/services" btnClass="btn-xl-v2 btn-primary-v2 group-hover/btn-v2:btn-secondary-v2">
+                <LinkButton href="/diensten" btnClass="btn-xl-v2 btn-primary-v2 group-hover/btn-v2:btn-secondary-v2">
                   Explore the platform
                 </LinkButton>
               </div>

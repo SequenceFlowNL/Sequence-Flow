@@ -4,8 +4,8 @@ export const footerLinks: FooterData[] = [
   {
     title: 'Menu',
     links: [
-      { label: 'Contact', href: '/contact-us' },
-      { label: 'Hoe wij werken', href: '/process' },
+      { label: 'Diensten', href: '/diensten' },
+      { label: 'Hoe wij werken', href: '/hoe-wij-werken' },
       { label: 'Blog', href: '/blog' },
       { label: 'FAQ', href: '/faq' },
     ],

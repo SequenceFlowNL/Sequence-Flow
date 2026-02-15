@@ -51,7 +51,7 @@ const Feature = () => {
                   enhancing customer
                 </h2>
                 <div>
-                  <LinkButton href="/services" btnClass="btn-md-v2 btn-v2-white group-hover/btn-v2:btn-primary-v2">
+                  <LinkButton href="/diensten" btnClass="btn-md-v2 btn-v2-white group-hover/btn-v2:btn-primary-v2">
                     <span>Get started</span>
                   </LinkButton>
                 </div>

@@ -28,7 +28,7 @@ type IntegrationLink = SimpleNavLink & {
 
 const overviewLinks: SimpleNavLink[] = [
   { label: 'Features & Capabilities', href: '/features', closesMenu: true },
-  { label: 'Process & Workflow', href: '/process' },
+  { label: 'Process & Workflow', href: '/hoe-wij-werken' },
   { label: 'Security & Compliance', href: '/security' },
   { label: 'Our Brandkit', href: '/brandkit' },
   { label: 'Download App', href: '/download' },
